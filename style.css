@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 20px;
+}
+
+.controls {
+    margin: 20px;
+}
+
+button, select {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+button {
+    background-color: #6a1b9a;
+    color: white;
+}
+
+button:hover {
+    background-color: #4a148c;
+}
+
+.calendar-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.calendar-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ddd;
+}
