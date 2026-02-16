@@ -115,3 +115,12 @@ image.addEventListener("touchend", e => {
     if (touchEndX < touchStartX - 50) nextBtn.click();
     if (touchEndX > touchStartX + 50) prevBtn.click();
 }, false);
+
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./sw.js")
+      .then(() => console.log("Service Worker Registered"))
+      .catch(err => console.log("SW registration failed:", err));
+  });
+}
